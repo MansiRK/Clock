@@ -1,0 +1,143 @@
+html,body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-image: url(https://media.istockphoto.com/id/1353874144/photo/astronaut-in-outer-space-spaceman-with-starry-and-galactic-background-sci-fi-digital-wallpaper.jpg?b=1&s=170667a&w=0&k=20&c=LRMYAkYVE3Jgjbg0YuYN1VRm9LFvys1eecZNTH2cTGg=);
+    background-size: cover;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    /* color: rgb(255, 255, 255); */
+    background: -webkit-linear-gradient(#200125, #fafafa);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 1rem auto;
+
+}
+
+hr {
+    width: 80%;
+    margin: 1rem auto;
+
+    /* background-color: blue; */
+}
+
+.clock {
+    border: 2px solid rgb(101, 95, 95);
+    background-image: url(https://media.istockphoto.com/id/1394088707/photo/moon-in-outer-space.jpg?b=1&s=170667a&w=0&k=20&c=fhvE--xMHuRzRCisuZAl-X-XgVnAOGM7VUAu8y5sb8s=);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    margin: 1rem auto;
+    height: 30rem;
+    width: 30rem;
+    /* position: relative; */
+    padding: 2rem;
+}
+
+.small-clock {
+    border: 2px solid rgb(255, 255, 255);
+    /* background-color: black; */
+    border-radius: 50%;
+    margin: 1rem auto;
+    height: 28rem;
+    width: 28rem;
+    /* position: relative; */
+    padding: 0rem;
+}
+
+.clock-face {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /* color: black; */
+}
+
+.hand {
+    width: 50%;
+    height: 8px;
+    background-color: rgb(250, 201, 201);
+    position: absolute;
+    top: 50%;
+    transform: rotate(90deg);
+    transform-origin: 100%;
+    border-radius: 50%;
+}
+
+.second-hand {
+    height: 2px;
+    background-color: rgb(90, 5, 5);
+    /* transform: rotate(50deg);
+        transform-origin: 100%; */
+}
+
+.min-hand {
+    background-color: rgb(236, 106, 106);
+    height: 5px;
+}
+
+.clock .number {
+    --rotation: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    /* background: -webkit-linear-gradient(#f3f5fa, #170227);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    
+    transform: rotate(var(--rotation));
+}
+
+.clock .number1 {
+    --rotation: 30deg;
+}
+
+.clock .number2 {
+    --rotation: 60deg;
+}
+
+.clock .number3 {
+    --rotation: 90deg;
+}
+
+.clock .number4 {
+    --rotation: 120deg;
+}
+
+.clock .number5 {
+    --rotation: 150deg;
+}
+
+.clock .number6 {
+    --rotation: 180deg;
+}
+
+.clock .number7 {
+    --rotation: 210deg;
+}
+
+.clock .number8 {
+    --rotation: 240deg;
+}
+
+.clock .number9 {
+    --rotation: 270deg;
+}
+
+.clock .number10 {
+    --rotation: 300deg;
+}
+
+.clock .number11 {
+    --rotation: 330deg;
+}
